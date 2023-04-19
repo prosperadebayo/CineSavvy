@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap"); /*# sourceMappingURL=style.css.map */
+
+:root {
+  --bg: rgb(20, 20, 20);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 50px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+
+  .logo {
+    font-size: 1em;
+    font-weight: 600;
+    user-select: none;
+    margin-left: 30px;
+    h3 {
+      font-size: larger;
+      color: rgb(31, 145, 150);
+
+      span {
+        font-size: larger;
+        color: orange;
+      }
+    }
+  }
+  .navigation {
+    position: relative;
+    display: flex;
+    right: 7%;
+    font-weight: 600;
+    display: flex;
+    gap: 5em;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(155, 195, 189);
+  }
+}
+section {
+  display: flex;
+  padding: 20px;
+  height: 50vh;
+}
+
+section.s1 {
+  background: url(viking-posing-against-ancient-interior-vikings.jpg) no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+section.s2 {
+  background: #202615;
+}
+section.s3 {
+  background: ;
+}
